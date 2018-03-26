@@ -17,6 +17,10 @@ class Song
   def artist
     @artist
   end
+  def genre
+    @genre
+    
+  end
 
   def save
     @@all << self
