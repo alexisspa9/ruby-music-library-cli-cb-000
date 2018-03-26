@@ -4,7 +4,7 @@ class Song
 
   def initialize(name, artist)
     @name = name
-    @artist = artist
+    @artist = artist if !@artist.include?(artist)
   end
 
   def self.all
