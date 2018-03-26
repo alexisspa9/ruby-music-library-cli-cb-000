@@ -15,10 +15,10 @@ class Song
   # def create(name)
   #   @name = name
   #   @@all << self
-  # 
+  #
   # end
-  # def self.destroy_all
-  #   @@all.clear
-  # 
-  # end
+  def self.destroy_all
+    @@all.clear
+  
+  end
 end
