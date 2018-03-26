@@ -18,6 +18,12 @@ class Genre
     @songs
 
   end
+  def artists
+      the_songs = songs.map do |s|
+         s.artist
+       end
+       the_songs.uniq
+  end
 
   def self.create(name)
     new_genre = self.new(name)
