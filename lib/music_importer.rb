@@ -7,4 +7,8 @@ class MusicImporter
   def path
     @path
   end
+  def files
+    
+    
+  end
 end
