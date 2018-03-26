@@ -19,8 +19,8 @@ class Artist
 
   end
   def genres
-      songs.map do |s|
-         s.genre.uniq
+      the_songs = songs.map do |s|
+         s.genre
        end
   end
   def save
