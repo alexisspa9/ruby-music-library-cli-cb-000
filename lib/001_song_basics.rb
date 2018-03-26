@@ -12,11 +12,11 @@ class Song
   def save
     @@all << self
   end
-  def slef.create(name)
+  def self.create(name)
     new_song = self.new
     new_song.name = name
     @@all << self
-  
+
   end
   def self.destroy_all
     @@all.clear
