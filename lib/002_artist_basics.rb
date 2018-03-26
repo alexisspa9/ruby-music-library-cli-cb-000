@@ -22,6 +22,7 @@ class Artist
       the_songs = songs.map do |s|
          s.genre
        end
+       the_songs.uniq
   end
   def save
     @@all << self
