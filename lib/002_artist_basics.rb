@@ -18,6 +18,9 @@ class Artist
     self.songs << song if !self.songs.include?(song)
 
   end
+  def genres
+
+  end
   def save
     @@all << self
   end
