@@ -10,6 +10,10 @@ class Song
   def self.all
     @@all
   end
+  def artist
+    @artist
+    
+  end
 
   def save
     @@all << self
