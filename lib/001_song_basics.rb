@@ -40,11 +40,12 @@ class Song
     @@all.clear
   end
 
-  def find_by_name
-    
+  def find_by_name(name)
+    @songs.s
+
   end
   def find_or_create_by_name
-    
+
   end
 
 end
